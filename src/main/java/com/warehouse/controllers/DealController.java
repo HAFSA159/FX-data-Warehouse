@@ -20,8 +20,8 @@ public class DealController {
     private final DealService dealService;
 
     @PostMapping
-    public void importDeals(@RequestParam("file") MultipartFile file) throws IOException {
-        dealService.importCsv(file);
+    public ResultDto importDeals(@RequestParam("file") MultipartFile file) throws IOException {
+        return dealService.importCsv(file);
 
     }
 }
