@@ -105,10 +105,6 @@ make test
 make coverage
 ```
 
-## ✅ Testing Coverage
-
-![Coverage Report](src/main/resources/static/coverage.png)
-
 
 ## 📚 Resource Files
 
